@@ -33,7 +33,6 @@ a{
 }
 .main-page{
     display: flex;
-    align-items: center;
     padding: 100px;
     gap: 50px;
     align-items: center;
@@ -50,12 +49,10 @@ h1{
     font-size: 48px;
     color: white;
     font-weight: 900;
-    width: 400px;
 }
-.text > .desc{
-    font-size: 23px;
+.desc{
+    font-size: 18px;
     color: white;
-    width: 700px;
 }
 button{
     background-color: #3882F6 ;
@@ -68,12 +65,11 @@ button{
     text-align: center;
 }
 .image{
-    width: 600px;
+    width: 550px;
     height: 250px;
     background-color: rgb(183, 181, 192);
     color: white;
     display: flex;
-    flex-shrink: 0;
 }
 .image p{
     margin: auto;
@@ -85,7 +81,7 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 40px;
     padding-bottom: 80px;
 }
 h2{
@@ -101,7 +97,7 @@ h2{
     border: solid;
     border-color: #3882F6;
     border-width: 3px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 .item{
     display: flex;
@@ -111,7 +107,7 @@ h2{
 }
 .pic-desc{
     text-align: center;
-    width: 180px;
+    width: 200px;
 }
 .quote{
     background-color: #E5E7EB;
@@ -120,19 +116,17 @@ h2{
     flex-direction: column;
     justify-content: center;
 }
-.quote.text{
+.quote > .text{
     font-style: italic;
     font-size: 36px;
-    width: 900px;
+    width: 70%;
     margin: 0 auto;
-    padding-bottom: 0px;
 }
 .credit{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 900;
     margin-left: auto;
     padding-right: 300px;
-    width: 660px;
 }
 .offer{
     display: flex;
@@ -155,9 +149,8 @@ h3{
     font-size: 17px;
     font-weight: 900;
 }
-.offer-part > .desc{
+.desc{
     font-size: 13px;
-    color: white;
 }
 .transparent{
     border: white 1.5px solid;
